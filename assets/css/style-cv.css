@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    width: 840px;
+    margin: 20px auto;
+}
+
+header{
+    margin-left: 20px;
+    gap: 10px;
+}
+
+main{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.left , .right{
+    width: 400px;
+    border-left:solid black;
+    margin-left: 20px;
+    border-left-style: dashed;
+}
+
+.blue{
+    color: blue;
+}
+
+li{
+    list-style: none;
+}
